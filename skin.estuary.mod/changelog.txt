@@ -1,0 +1,211 @@
+[B]1.2.2[/B]
+• Add album cover for next track on music OSD
+• Add possibility to disable zoom effect on focus
+• Add Show Path button on music video info
+• Improve volume progress with unit
+• Improve clock icon
+• Update AudioDSPManager.xml with core changes
+
+[B]1.2.1[/B]
+• Add CU LRC Lyrics addon integration on music OSD
+• Add new CD case on music visualisation
+• Add button on video OSD to access extended info
+• Add a setting in personnalise home menu to replace thumbnails of episodes by fanarts
+• Add description for each skin setting
+• Improve esthetic appearance
+• Fix list on dialog settings
+• Fix play/pause button on media menu
+• Fix episode label on videos search
+
+[B]1.2.0[/B]
+• Changes in skin settings to be the same as others settings
+• Add possibility to reset each skin settings category individually
+• Add possibility to show/hide background visualisation effect
+• Add possibility to access to music playlist from music OSD
+• Add music videos on default menu
+• Add default music videos widget
+• Add AudioDSP settings & manager to music OSD
+• Add arrows for home menu when there is more than 9 items
+• Fix fanarts when playing media
+• Fix settings widgets
+• Fix video info for music videos
+• Improve esthetic appearance
+• Updated language files from Transifex
+
+[B]1.1.9[/B]
+• Changes in ClearLogos and ClearArts views
+• Changes in profile settings to be the same as others settings
+• Replace settings widget by system info widget
+• Fix channels 4 digits on PVR guide
+• Fix missing recently added widget after updating library
+• Fix audio DSP if no modes
+• Improve esthetic appearance
+
+[B]1.1.8[/B]
+• Add Last/Next Aired episode on some views and on TV Shows info
+• Add Extendedinfo video search support
+• Add T9 search dialog addon support
+• Update for GlobalSearch addon
+• Fix visualisation over fading
+• Fix header label of picture widget
+• Fix widget selection when no submenu is define
+• Fix popup notification on startup
+• Fix scrollbars and media menu in some case
+• Fix posters on some views
+
+[B]1.1.7[/B]
+• Add Big Posters view
+• Add Library view
+• Add all icons for Skin Shortcuts (latest git is needed)
+• Add 'Recent unwatched episodes' and 'Recent unwatched movies' smartplaylists
+• Add possibility to hide watched episodes from recently added episodes for default TV Shows widget
+• Add possibility to hide watched movies from recently added movies for default Movies widget
+• Improve esthetic appearance
+• Move scrollbar to the left on left panel in File Manager
+• Move scrollbar to the left on select and file browser dialogs
+• Updated language files from Transifex
+• Updated default slider
+
+[B]1.1.6[/B]
+• Add watched, unwatched and resume indicators on all views
+• Add possibility to choose ClearArt position on OSD
+• Add ClearLogos view
+• Add ClearArts view
+• Add Big Fanart view
+• Improve esthetic appearance
+• Changes on Shift view
+
+[B]1.1.5[/B]
+• Add possibility to hide banner of picture widget
+• Add Estuary Mod logo to media menu
+• Changes on video OSD and ClearArt
+• Changes on TV shows widget
+• Fix exception in ContentProvider with extrafanarts and plugins
+• Fix playlist scrollbar
+• Other fix 
+
+[B]1.1.4[/B]
+• Add possibility to replace busy spinner (.gif file, multiimages folder or built-in skin)
+• Add possibility to show/hide background video
+• Add support for extrafanarts
+• Updated language files from Transifex
+• Reorganization of shortcuts and widgets
+• Fix Eventlog buttons
+• Other minor fixes
+
+[B]1.1.3[/B]
+• Add track duration on album infos
+• Add widgets for search and bottom menu
+• Many fixes in PVR
+• Changes in skin settings 
+
+[B]1.1.2[/B]
+• Add settings layout changes
+• Remove no more needed Audio DSP Manager items
+• Fix buttons on Audio DSP Manager
+• Changes on LibreELEC Configuration and OpenELEC Configuration
+• Bump xbmc.gui to 5.12.0
+• Updated language files from Transifex
+
+[B]1.1.1[/B]
+• Add support for LibreELEC Configuration and OpenELEC Configuration addons
+• Changes on keyboard
+• Fix autoscroll on list view
+• Fix syntax
+
+[B]1.1.0[/B]
+• Add Kiosk Mode
+• Add possibility to hide information bars all over skin
+• Add possibility to change background opacity
+• Fix bottom bar and scroll bar
+• Fix on media menu
+
+[B]1.0.9[/B]
+• Add possibility to hide information bars on library
+• Add support for recordlabels icons 
+• Add possibility to show video/song path on info screen
+• Several changes
+
+[B]1.0.8[/B]
+• Add last changes from original Estuary build
+• Add total number of installed addons on addons screen
+• Add languages and subtitles languages on video infos
+• Fix widgets position to not interfere with submenu
+
+[B]1.0.7[/B]
+• Add song bitrate on osd infos
+• Add support for "Weather Fanart - Multi" addon
+• Add default icon for roles node
+• Change for returns duration of a video will end if you resume it, instead of playing it from the beginning
+• Fix ClearArt
+• Fix esthetic appearance
+
+[B]1.0.6[/B]
+• Add changes from original Estuary 0.7.9
+• Add possibility to set background in personnalize home menu
+• Fix tvshows posters when posters is selected for widget
+• Fix description label in select dialog
+• Fix english translation
+• Display fixes
+
+[B]1.0.5[/B]
+• Add new search function in media menu
+• Remove script-globalsearch-contextmenu.xml. Not need with latest build
+• Minnor fixes
+
+[B]1.0.4[/B]
+• Add director search support in Global Search
+• Add TV Show - Next Aired addon support
+• Changes in context menu
+• Fix addons icons
+• Add latest original build 0.7.8
+
+[B]1.0.3[/B]
+• Fix on PVR
+• Fix on skin settings
+
+[B]1.0.2[/B]
+• Add possibility to set media flags of the same color as skin
+• Add animated posters support
+• Add posters support for video addons
+• Replace watched and unwatched icons
+• Changes in duration labels and flags icons
+• Fix library default icons
+• Many others changes
+
+[B]1.0.1[/B]
+• Add duration, finish time and rating flags icons
+• Fix OSD infos
+• Fix on video infos
+• Fix on Global Search
+• Fix on RSS Editor
+• Update french translation
+
+[B]1.0.0[/B]
+• Initial release (with latest original Estuary 0.7.7)
+  - Add Skin Shortcuts support to manage home menu and power menu
+  - Widgets from original Estuary are selectable in personnalize home menu
+  - Add Artwork Downloader support to download artworks
+  - Add Artist Slideshow support for music osd
+  - Add Global Search support to search in local library
+  - Add Play Album support to play album directly on album infos
+  - Add Nextup Service Notification support to show popup with next episode
+  - Add RSS Editor support
+  - Add ClearLogos support
+  - Add ClearArts support
+  - Add Music CDArts support
+  - Add possibility to choose picture, vidéo or music at startup
+  - Add possibility to download artworks after library update
+  - Add possibility to choose a pictures folder with picture widget to show a slideshow 
+  - Add possibility to change weather icons
+  - Add possibility to backup/restore skin settings
+  - Add debug infos setting
+  - Add new genres view with icons
+  - Rearranging skin settings
+  - Replace flags icons
+  - Replace OSD buttons (Thanks Ichabod Fletchman)
+  - Replace backgrounds without banding (Thanks Ichabod Fletchman)
+  - Replace duration format with hours and minutes
+  - Dolby Atmos and DTS-X naming support
+  - Increase to 25 the number of widgets items
+  - Bug fixes

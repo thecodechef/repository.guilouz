@@ -11,8 +11,10 @@
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Guilouz's addons repository</summary>
-            <description>Download and install Guilouz's addons repository.</description>
+            <summary lang="en">Guilouz's addons repository</summary>
+            <summary lang="fr">Extensions du dépôt de Guilouz.</summary>
+            <description lang="en">Download and install Guilouz's addons repository.</description>
+            <description lang="fr">Téléchargez et installez les extensions du dépôt de Guilouz.</description>
             <platform>all</platform>
     </extension>
 </addon>
