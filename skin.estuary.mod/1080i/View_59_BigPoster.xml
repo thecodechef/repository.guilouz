@@ -82,7 +82,78 @@
                             <bottom>10</bottom>
                             <aspectratio>stretch</aspectratio>
                             <texture fallback="DefaultVideo.png">$VAR[ListPosterVar]</texture>
-                        </control>            
+                        </control>
+                        <control type="image">
+							<left>10</left>
+							<bottom>10</bottom>
+							<right>10</right>
+							<height>82</height>
+							<texture>overlays/back.png</texture>
+							<animation effect="fade" start="0" end="100" time="200" delay="250">Focus</animation>
+						<animation effect="fade" start="100" end="0" time="50">UnFocus</animation>
+						</control>
+						<control type="group">
+						<bottom>15</bottom>
+						<animation effect="fade" start="0" end="100" time="200" delay="250">Focus</animation>
+						<animation effect="fade" start="100" end="0" time="50">UnFocus</animation>
+						<control type="group">
+			                <bottom>35</bottom>
+			                <left>80</left>
+			                <width>70</width>
+			                <height>32</height>
+			            <control type="image">
+				            <top>0</top>
+				            <right>41</right>
+				            <width>70</width>
+				            <height>32</height>
+				            <fadetime>300</fadetime>
+				            <aspectratio align="center">keep</aspectratio>
+				            <texture>lists/rating.png</texture>
+			            </control>
+			            <control type="label">
+				            <right>41</right>
+				            <top>35</top>
+				            <width>70</width>
+				            <height>32</height>
+				            <align>center</align>
+				            <font>font10</font>
+				            <selectedcolor>white</selectedcolor>
+				            <label fallback="-">$INFO[ListItem.Rating]</label>
+			            </control>
+		            </control>
+		            <control type="group">
+			                <bottom>35</bottom>
+			                <left>244</left>
+			                <width>70</width>
+			                <height>32</height>
+			            <control type="image">
+				            <top>0</top>
+				            <right>41</right>
+				            <width>70</width>
+				            <height>32</height>
+				            <fadetime>300</fadetime>
+				            <aspectratio align="center">keep</aspectratio>
+				            <texture>lists/year.png</texture>
+			            </control>
+			            <control type="label">
+				            <right>41</right>
+				            <top>35</top>
+				            <width>70</width>
+				            <height>32</height>
+				            <align>center</align>
+				            <font>font10</font>
+				            <selectedcolor>white</selectedcolor>
+				            <label fallback="-">$INFO[ListItem.Year]</label>
+			            </control>
+		            </control>
+						<control type="image">
+							<right>50</right>
+							<bottom>10</bottom>
+							<width>48</width>
+							<height>48</height>
+							<texture>$VAR[ListWatchedIconVar]</texture>
+						</control>
+					</control>            
                     </control>
                 </focusedlayout>
                 <itemlayout height="700" width="495" condition="Container.Content(artists) | Container.Content(albums)">

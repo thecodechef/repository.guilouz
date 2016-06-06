@@ -1,3 +1,8 @@
+[B]1.2.3[/B]
+• Add info on Big Poster view
+• Add extrafanarts support for 'Show Fanart' button on video info
+• Now use Skin Helper Service for extrafanarts
+
 [B]1.2.2[/B]
 • Add album cover for next track on music OSD
 • Add possibility to disable zoom effect on focus

@@ -302,8 +302,8 @@
 					<control type="radiobutton" id="626">
 						<include>MediaMenuItemsCommon</include>
 						<label>Extrafanarts</label>
-						<selected>Skin.HasSetting(enable_extrafanarts)</selected>
-						<onclick>Skin.ToggleSetting(enable_extrafanarts)</onclick>
+						<selected>Skin.HasSetting(SkinHelper.EnableExtraFanart)</selected>
+						<onclick>Skin.ToggleSetting(SkinHelper.EnableExtraFanart)</onclick>
 						<visible>!String.StartsWith(Container.FolderPath,plugin://)</visible>
 						<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.content(seasons) | Container.Content(episodes)</visible>
 					</control>
