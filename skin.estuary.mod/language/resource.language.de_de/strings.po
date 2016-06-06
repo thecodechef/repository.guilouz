@@ -1023,3 +1023,171 @@ msgstr "Meist gesehene Musikvideos"
 msgctxt "#40118"
 msgid "Lyrics source"
 msgstr "Quelle für Liedtexte"
+
+msgctxt "#40119"
+msgid "Customize items and submenus of the home menu."
+msgstr "Anpassen der Einträge des Haupt- und der Untermenüs."
+
+msgctxt "#40120"
+msgid "Customize items of the power menu."
+msgstr "Anpassen der Einträge des Powermenü"
+
+msgctxt "#40121"
+msgid "Reset default items of the home menu and power menu."
+msgstr "Zurücksetzen der Einträge des Haupt- und des Powermenü"
+
+msgctxt "#40122"
+msgid "Hide top and bottom bars.[CR][[B]Never[/B]] Bars are always displayed.[CR][[B]Only on library[/B]] Bars are hidden only on Movies, TV Shows and Music libraries. [CR][[B]All over skin[/B]] Bars are hidden all over skin."
+msgstr "Blende die Top und Bottom Balken aus.[CR][[B]Nie[/B]] Balken werden immer angezeigt.[CR][[B]Nur in Bibliothek[/B]] Balken werden nur in den Film-, TV Shows- und Musik Bibliotheken ausgeblendet. [CR][[B]Im gesamten Skin[/B]] Balken werden im gesamten Skin ausgeblendet."
+
+msgctxt "#40123"
+msgid "Show slide effect of skin windows."
+msgstr "Zeige den Rutscheffekt der Skin Fenster an."
+
+msgctxt "#40124"
+msgid "Enable auto scrolling for plots and reviews."
+msgstr "Aktiviere den automatischen Bildlauf für Handlung und Kritiken "
+
+msgctxt "#40125"
+msgid "Show weather with the time and date on the top bar."
+msgstr "Zeige Wetter-, Datum- und Uhrzeitinformationen im oberen Bereich an."
+
+msgctxt "#40126"
+msgid "Replace thumbnails of episodes by fanarts"
+msgstr "Ersetze Miniaturbilder der Episoden durch Fanart"
+
+msgctxt "#40127"
+msgid "Show media flags icons such as resolution, ratio, video codec, audio codec, number of channels, duration..."
+msgstr "Zeige Medieninformationen wie z.B. Auflösung, Seitenverhältnis, Videocodec, Anzahl der Kanäle, Dauer..."
+
+msgctxt "#40128"
+msgid "Show media flags to the same color as skin color."
+msgstr "Zeige Medieninformationen in der Farbe des Skin an."
+
+msgctxt "#40129"
+msgid "Show animated posters instead of conventional posters. Conventional posters will be showed when no animated poster is available."
+msgstr "Zeige animierte Poster, wenn vorhanden. Wenn kein animiertes Poster vorliegt wird das normale Poster angezeigt."
+
+msgctxt "#40130"
+msgid "Show movies and TV shows clearlogos on video library."
+msgstr "Zeige Film- und TV Show Clearlogos in Videobibliothek."
+
+msgctxt "#40131"
+msgid "Show artists clearlogos on music library."
+msgstr "Zeige Künstler Clearlogos in der Musikbibliothek."
+
+msgctxt "#40132"
+msgid "Set location of the folder containing music."
+msgstr "Lege den Pfad zum Musikverzeichnis fest."
+
+msgctxt "#40133"
+msgid "Show studios and recordslabels icons on library."
+msgstr "Zeige die Studio- und Plattenlabelicons in den Bibliotheken an."
+
+msgctxt "#40134"
+msgid "Select studios icons addon."
+msgstr "Wähle aus, welche Studioicons verwendet werden."
+
+msgctxt "#40135"
+msgid "Select recordslabels icons addon."
+msgstr "Wähle aus, welche Plattenlabelicons verwendet werden."
+
+msgctxt "#40136"
+msgid "Show media fanart as background."
+msgstr "Zeige Medienfanart als Hintergrund."
+
+msgctxt "#40137"
+msgid "Show video as background when returning on menu and a video is playing."
+msgstr "Zeige laufendes Video bei Rückkehr ins Hauptmenü im Hintergrund an."
+
+msgctxt "#40138"
+msgid "Show visualisation effects as background when a song is playing."
+msgstr "Zeige Visualisierungseffekt im Hintergrund an sofern ein Song gespielt wird."
+
+msgctxt "#40139"
+msgid "Replace default background by custom background."
+msgstr "Ersetze den Standardhintergrund durch einen individuellen Hintergrund."
+
+msgctxt "#40140"
+msgid "Set location of the custom background."
+msgstr "Wähle den Pfad zum individuellen Hintergrundbild"
+
+msgctxt "#40141"
+msgid "Select multi fanarts for weather addon."
+msgstr "Wähle aus, welche Multibilder im Wetteraddon angezeigt werden."
+
+msgctxt "#40142"
+msgid "Set background opacity on all over skin."
+msgstr "Setze die Transparenz für den Hintergrund im gesamten Skin."
+
+msgctxt "#40143"
+msgid "Show slideshow of artist fanarts on music visualisation screen. [B]Artist SlideShow[/B] addon is needed."
+msgstr "Zeige eine Diashow der Künstlerfanart im Musikvisualisierungsbildschirm. [B]Artist SlideShow[/B] Addon wird benötigt."
+
+msgctxt "#40144"
+msgid "Show slideshow of artist fanarts in thumbnail on music visualisation screen. [B]Artist SlideShow[/B] addon is needed."
+msgstr "Zeige Diashow der Künstlerfanart in Miniaturansicht des Musikvisualisierungsbildschirm. [B]Artist SlideShow[/B] Addon wird benötigt."
+
+msgctxt "#40145"
+msgid "Animate background or slideshow (if enabled) on music visualisation screen."
+msgstr "Animiere den Hintergrund oder zeige die Diashow (falls aktiviert) im Musikvisualisierungsbildschirm."
+
+msgctxt "#40146"
+msgid "Show visualisation effects on music visualisation screen."
+msgstr "Zeige Visualisierungseffekt im Musikvisualisierungsbildschirm"
+
+msgctxt "#40147"
+msgid "Show CDArt on music visualisation screen. 'cdart.png' file must be present in album folder."
+msgstr "Zeige CDArt im Musikvisualisierungsbildschirm. 'cdart.png' Datei muss im Albumverzeichnis liegen."
+
+msgctxt "#40148"
+msgid "Show ClearArt on video OSD."
+msgstr "Zeige ClearArt im Video OSD"
+
+msgctxt "#40149"
+msgid "Set ClearArt position on video OSD."
+msgstr "Lege fest an welcher Stelle im Video OSD die ClearArt angezeigt wird."
+
+msgctxt "#40150"
+msgid "Show TV Show ClearArt with [B]NextUp Notification[/B] addon."
+msgstr "Zeige TV Show ClearArt im [B]NextUp Notification[/B] addon an."
+
+msgctxt "#40151"
+msgid "Activate Kiosk mode. It allow to turn off sliding menu that provides access to various skin settings. Ideal for children or if Kodi is on free service."
+msgstr "Aktiviere den Kioskmodus. Dieser verhindert den Zugriff auf die Ansichtsoptionen in den Bibliotheksansichten. Ideal für Kinder oder falls Kodi als Service angeboten wird."
+
+msgctxt "#40152"
+msgid "Select a photo, a video or a music to run when Kodi starting."
+msgstr "Zeige ein Foto, ein Video oder spiele ein Musikstück beim Start von Kodi."
+
+msgctxt "#40153"
+msgid "Download automatically all necessary artworks. [B]Artwork Downloader[/B] addon is needed."
+msgstr "Aktiviere den automatischen Download aller nötigen Artworks. [B]Artwork Downloader[/B] wird benötigt."
+
+msgctxt "#40154"
+msgid "Select weather icons addon."
+msgstr "Wähle aus, welche Wettericons im Wetter Addon angezeigt werden."
+
+msgctxt "#40155"
+msgid "Replace default busy spinner by custom busy spinner."
+msgstr "Ersetze das standard 'Beschäftigt Icon' durch ein individuelles Icon."
+
+msgctxt "#40156"
+msgid "Show debug infos."
+msgstr "Zeige Debuginformationen"
+
+msgctxt "#40157"
+msgid "Save all skin settings."
+msgstr "Speichere alle Skineinstellungen"
+
+msgctxt "#40158"
+msgid "Restore all skin settings."
+msgstr "Stelle alle Skineinstellungen wieder her."
+
+msgctxt "#40159"
+msgid "Disable zoom effect"
+msgstr "Deaktiviere den Zoomeffekt."
+
+msgctxt "#40160"
+msgid "Disable zoom effect when selecting item."
+msgstr "Deaktiviere  den Zoomeffekt bei Auswahl eines Eintrages."
