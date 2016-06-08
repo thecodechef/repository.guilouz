@@ -389,8 +389,8 @@
 					<scrolltime tween="cubic" easing="out">500</scrolltime>
 					<include content="WidgetListEpisodes">
 						<param name="content_path" value="special://skin/playlists/recent_unwatched_episodes.xsp"/>
-						<param name="widget_header" value="$VAR[EpisodesThumbsVar]"/>
-						<param name="item_image" value="$INFO[ListItem.Art(thumb)]" />
+						<param name="widget_header" value="$LOCALIZE[40104]"/>
+						<param name="item_image" value="$VAR[EpisodesThumbsVar]" />
 						<param name="widget_target" value="videos"/>
 						<param name="second_label" value="[COLOR button_focus]$INFO[ListItem.Season,,x]$INFO[ListItem.Episode][/COLOR] $INFO[ListItem.Title]" />
 						<param name="list_id" value="6100"/>

@@ -392,14 +392,14 @@
 						<label>$INFO[ListItem.UserRating]</label>
 						<font>font30_title</font>
 						<left>0</left>
-						<top>18</top>
+						<top>22</top>
 						<width>262</width>
 						<align>center</align>
 					</control>
 					<control type="image">
 						<texture>icons/infodialogs/rating.png</texture>
 						<left>107</left>
-						<top>28</top>
+						<top>32</top>
 						<width>48</width>
 						<height>48</height>
 						<align>center</align>

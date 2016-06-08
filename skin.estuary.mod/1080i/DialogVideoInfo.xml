@@ -684,18 +684,18 @@
 						<param name="onclick_1" value="SetProperty(fanart,$ESCINFO[ListItem.Art(fanart)],home)" />
 						<param name="onclick_2" value="ActivateWindow(1104)" />
 						<param name="visible" value="!String.IsEmpty(ListItem.Art(fanart))" />
-					</include>
-					<include content="InfoDialogButton">
-						<param name="id" value="10" />
-						<param name="icon" value="icons/infodialogs/image.png" />
-						<param name="label" value="$LOCALIZE[13511]" />
-					</include>
+					</include>					
 					<include content="InfoDialogButton">
 						<param name="id" value="105" />
 						<param name="icon" value="icons/infodialogs/path.png" />
 						<param name="label" value="$LOCALIZE[40063]" />
 						<param name="onclick_1" value="ActivateWindow(1110)" />
 						<param name="visible" value="Container.Content(movies) | Container.Content(musicvideos) | Container.Content(episodes)" />
+					</include>
+					<include content="InfoDialogButton">
+						<param name="id" value="10" />
+						<param name="icon" value="icons/infodialogs/image.png" />
+						<param name="label" value="$LOCALIZE[13511]" />
 					</include>
 					<include content="InfoDialogButton">
 						<param name="id" value="103" />
@@ -733,14 +733,14 @@
 							<label>$INFO[ListItem.UserRating]</label>
 							<font>font30_title</font>
 							<left>0</left>
-							<top>18</top>
+							<top>22</top>
 							<width>262</width>
 							<align>center</align>
 						</control>
 						<control type="image">
 							<texture>icons/infodialogs/rating.png</texture>
 							<left>107</left>
-							<top>28</top>
+							<top>32</top>
 							<width>48</width>
 							<height>48</height>
 							<align>center</align>

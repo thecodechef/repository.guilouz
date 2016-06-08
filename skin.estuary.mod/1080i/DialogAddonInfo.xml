@@ -73,10 +73,10 @@
 					<aligny>top</aligny>
 					<textoffsetx>35</textoffsetx>
 					<textoffsety>76</textoffsety>
-					<radioposx>81</radioposx>
+					<radioposx>56</radioposx>
 					<radioposy>14</radioposy>
-					<radiowidth>100</radiowidth>
-					<font>font12</font>
+					<radiowidth>150</radiowidth>
+					<font>font10</font>
 					<visible>Control.IsEnabled(13)</visible>
 				</control>
 				<include content="InfoDialogButton">

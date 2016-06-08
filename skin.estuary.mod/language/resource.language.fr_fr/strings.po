@@ -802,7 +802,7 @@ msgstr "Icônes des maisons de disques"
 
 msgctxt "#40063"
 msgid "Show media path"
-msgstr "Afficher le chemin du média"
+msgstr "Chemin du média"
 
 msgctxt "#40064"
 msgid "Media path"

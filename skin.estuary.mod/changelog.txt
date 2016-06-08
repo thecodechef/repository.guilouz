@@ -1,3 +1,7 @@
+[B]1.2.4[/B]
+• Improve esthetic appearance
+• Fix recently added episodes widget
+
 [B]1.2.3[/B]
 • Add info on Big Poster view
 • Add extrafanarts support for 'Show Fanart' button on video info
