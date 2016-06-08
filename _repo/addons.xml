@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="skin.estuary.mod" version="1.2.3" name="Estuary MOD" provider-name="phil65, Piers and MOD by Guilouz">
+<addon id="skin.estuary.mod" version="1.2.4" name="Estuary MOD" provider-name="phil65, Piers and MOD by Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
