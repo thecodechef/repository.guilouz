@@ -1324,3 +1324,7 @@ msgstr ""
 msgctxt "#40160"
 msgid "Disable zoom effect when selecting item."
 msgstr ""
+
+msgctxt "#40161"
+msgid "Add-on settings"
+msgstr ""

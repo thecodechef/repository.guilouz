@@ -7,7 +7,7 @@
         <action>ActivateWindow(addonbrowser,root)</action>
     </shortcut>
     <shortcut>
-        <label>1045</label>
+        <label>40161</label>
         <label2>Common Shortcut</label2>
         <icon>special://skin/extras/icons/settings.png</icon>
         <action>ActivateWindow(systemsettings,addons)</action>
