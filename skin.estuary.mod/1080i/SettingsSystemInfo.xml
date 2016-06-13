@@ -146,7 +146,7 @@
 			</control>
 			<control type="grouplist">
 				<left>60</left>
-				<top>630</top>
+				<top>645</top>
 				<orientation>vertical</orientation>
 				<control type="label">
 					<description>CPU Text</description>
@@ -181,7 +181,7 @@
 				</control>
 			</control>
 			<control type="label">
-				<top>660</top>
+				<top>675</top>
 				<left>900</left>
 				<width>auto</width>
 				<height>50</height>
@@ -194,7 +194,7 @@
 			<control type="grouplist">
 				<description>Kodi build version</description>
 				<itemgap>10</itemgap>
-				<top>710</top>
+				<top>720</top>
 				<left>900</left>
 				<width>800</width>
 				<align>left</align>
@@ -224,7 +224,7 @@
 			<control type="grouplist">
 				<description>Build date</description>
 				<itemgap>10</itemgap>
-				<top>755</top>
+				<top>770</top>
 				<align>left</align>
 				<left>900</left>
 				<width>800</width>

@@ -90,7 +90,7 @@
                 <bottom>10</bottom>
                 <fadetime>200</fadetime>                   
                 <aspectratio>stretch</aspectratio>
-                <texture background="true" fallback="DefaultVideo.png">$VAR[FanartImageVar]</texture>
+                <texture background="true" fallback="DefaultVideoCover.png">$VAR[FanartImageVar]</texture>
                 <visible>!Container.Content(episodes)</visible>
             </control>  
             <control type="image">
@@ -100,7 +100,7 @@
                 <bottom>10</bottom>
                 <fadetime>200</fadetime>                   
                 <aspectratio>stretch</aspectratio>
-                <texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Art(thumb)]</texture>
+                <texture background="true" fallback="DefaultVideoCover.png">$INFO[ListItem.Art(thumb)]</texture>
                 <visible>Container.Content(episodes)</visible>
             </control>        
         </control>

@@ -2,34 +2,21 @@
 <overrides>
 
 <!-- Icons overrides -->
-	<useDefaultThumbAsIcon>True</useDefaultThumbAsIcon>
 	<icon image="DefaultShortcut.png">special://skin/extras/icons/addtile.png</icon>
-	<icon image="DefaultFolder.png">DefaultFolderSquare.png</icon>
-	<icon image="DefaultVideo.png">DefaultAddonVideo.png</icon>
-	<icon image="DefaultMovies.png">DefaultMoviesSquare.png</icon>
-	<icon image="DefaultTVShows.png">DefaultTVShowsSquare.png</icon>
-	<icon image="DefaultMusicVideos.png">DefaultMusicVideosSquare.png</icon>
-	<icon image="DefaultPicture.png">DefaultAddonPicture.png</icon>
-	<icon image="DefaultDVDFull.png">DefaultDVDFullSquare.png</icon>
-	<icon image="DefaultInProgressShows.png">DefaultInProgressShowsSquare.png</icon>
-	<icon image="DefaultRecentlyAddedMovies.png">DefaultRecentlyAddedMoviesSquare.png</icon>
-	<icon image="DefaultRecentlyAddedEpisodes.png">DefaultRecentlyAddedEpisodesSquare.png</icon>
-	<icon image="DefaultVideoPlaylists.png">DefaultMusicPlaylists.png</icon>
-	<icon image="DefaultPlaylist.png">DefaultMusicPlaylists.png</icon>
 	<icon labelID="livetv">DefaultTVGuide.png</icon>
 	<icon labelID="radio">DefaultRadioGuide.png</icon>
 
 <!-- Additionnal Widgets -->
-    <widget label="40008" icon="special://skin/media/icons/widgets/weather.png">WeatherWidget</widget>
-    <widget label="40009" icon="special://skin/media/icons/widgets/movies.png">MoviesWidget</widget>
-    <widget label="40010" icon="special://skin/media/icons/widgets/tvshows.png">TVShowsWidget</widget>
-    <widget label="40115" icon="special://skin/media/icons/widgets/musicvideo.png">MusicVideoWidget</widget>
-    <widget label="40011" icon="special://skin/media/icons/widgets/music.png">MusicWidget</widget>
-    <widget label="40012" icon="special://skin/media/icons/widgets/addons.png">AddonsWidget</widget>
-    <widget label="40013" icon="special://skin/media/icons/widgets/sources.png">SourcesWidget</widget>
-    <widget label="40014" icon="special://skin/media/icons/widgets/livetv.png">LiveTVWidget</widget>
-    <widget label="40015" icon="special://skin/media/icons/widgets/radios.png">RadioWidget</widget>
-    <widget label="40016" icon="special://skin/media/icons/widgets/pictures.png">PictureWidget</widget>
+    <widget label="40008" icon="Weather.png">WeatherWidget</widget>
+    <widget label="40009" icon="DefaultMovies.png">MoviesWidget</widget>
+    <widget label="40010" icon="DefaultTVShows.png">TVShowsWidget</widget>
+    <widget label="40115" icon="DefaultMusicVideos.png">MusicVideoWidget</widget>
+    <widget label="40011" icon="DefaultMusicSongs.png">MusicWidget</widget>
+    <widget label="40012" icon="DefaultAddon.png">AddonsWidget</widget>
+    <widget label="40013" icon="DefaultNetwork.png">SourcesWidget</widget>
+    <widget label="40014" icon="DefaultTVGuide.png">LiveTVWidget</widget>
+    <widget label="40015" icon="DefaultRadioGuide.png">RadioWidget</widget>
+    <widget label="40016" icon="DefaultPicture.png">PictureWidget</widget>
 
 <!-- Default Widgets -->    
     <widgetdefault labelID="videos">SourcesWidget</widgetdefault>
@@ -90,7 +77,7 @@
     <groupings>
 		<node label="32029">
 			<content>common</content>
-			<shortcut label="$ADDON[script.skin.helper.service 32062]" type="32010" icon="DefaultFolderSquare.png" condition="System.HasAddon(script.skin.helper.service)">||BROWSE||script.skin.helper.service/?action=smartshortcuts</shortcut>
+			<shortcut label="$ADDON[script.skin.helper.service 32062]" type="32010" icon="DefaultFolder.png" condition="System.HasAddon(script.skin.helper.service)">||BROWSE||script.skin.helper.service/?action=smartshortcuts</shortcut>
 		</node>
 		<node label="32030">
 			<content>video</content>
@@ -176,7 +163,7 @@
 	</groupings>
 	
 	<widget-groupings>
-        <shortcut label="40085" icon="DefaultFolderSquare.png" condition="System.HasAddon(script.skin.helper.service)">||BROWSE||script.skin.helper.service/?action=widgets&amp;path=skinplaylists,librarydataprovider,scriptwidgets,extendedinfo,smartshortcuts,pvr,smartishwidgets</shortcut>
+        <shortcut label="40085" icon="DefaultFolder.png" condition="System.HasAddon(script.skin.helper.service)">||BROWSE||script.skin.helper.service/?action=widgets&amp;path=skinplaylists,librarydataprovider,scriptwidgets,extendedinfo,smartshortcuts,pvr,smartishwidgets</shortcut>
 
         <shortcut label="32107" type="32021" icon="DefaultAddon.png" condition="!System.HasAddon(script.skin.helper.service)">::INSTALL::script.skin.helper.service</shortcut>
 	

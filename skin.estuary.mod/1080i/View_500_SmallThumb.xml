@@ -56,7 +56,7 @@
 						<top>-1</top>
 						<width>256</width>
 						<height>362</height>
-						<texture fallback="DefaultVideo.png" background="true">$VAR[ListPosterVar]</texture>
+						<texture fallback="DefaultVideoCover.png" background="true">$VAR[ListPosterVar]</texture>
 						<bordertexture border="20">overlays/shadow.png</bordertexture>
 						<bordersize>20</bordersize>
 						<animation effect="slide" end="-15,0" time="0" condition="true">Conditional</animation>
@@ -76,7 +76,7 @@
 							<top>15</top>
 							<width>220</width>
 							<height>330</height>
-							<texture border="2" fallback="DefaultVideo.png" background="true">$VAR[ListPosterVar]</texture>
+							<texture border="2" fallback="DefaultVideoCover.png" background="true">$VAR[ListPosterVar]</texture>
 							<bordertexture colordiffuse="border_alpha">colors/black.png</bordertexture>
 							<bordersize>4</bordersize>
 						</control>
@@ -165,7 +165,7 @@
 						<top>19</top>
 						<width>356</width>
 						<height>230</height>
-						<texture fallback="DefaultVideo.png" background="true">$VAR[ListInfoBoxImageVar]</texture>
+						<texture fallback="DefaultVideoCover.png" background="true">$VAR[ListInfoBoxImageVar]</texture>
 						<aspectratio>scale</aspectratio>
 					</control>
 					<control type="label">
@@ -234,7 +234,7 @@
 							<top>19</top>
 							<width>356</width>
 							<height>230</height>
-							<texture border="2" fallback="DefaultVideo.png" background="true">$VAR[ListInfoBoxImageVar]</texture>
+							<texture border="2" fallback="DefaultVideoCover.png" background="true">$VAR[ListInfoBoxImageVar]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="label">

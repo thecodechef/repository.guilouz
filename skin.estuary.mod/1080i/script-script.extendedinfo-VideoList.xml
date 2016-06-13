@@ -21,7 +21,7 @@
 				<texture border="22">dialogs/dialog-bg.png</texture>
 			</control>	
 			<control type="image">
-				<texture fallback="DefaultVideo.png">$INFO[ListItem.Art(fanart_small)]</texture>
+				<texture fallback="DefaultVideoCover.png">$INFO[ListItem.Art(fanart_small)]</texture>
 				<left>40</left>
 				<top>30</top>
 				<width>396</width>
@@ -209,7 +209,7 @@
 								<bordertexture border="20">overlays/shadow.png</bordertexture>
 								<bordersize>20</bordersize>
 								<aspectratio aligny="top">stretch</aspectratio>
-								<texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Thumb]</texture>
+								<texture background="true" fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
 							</control>
 							<control type="image">
 								<width>55</width>
@@ -256,7 +256,7 @@
 								<bordertexture border="20">overlays/shadow.png</bordertexture>
 								<bordersize>20</bordersize>
 								<aspectratio aligny="top">stretch</aspectratio>
-								<texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Thumb]</texture>
+								<texture background="true" fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
 							</control>
 							<control type="image">
 								<width>55</width>

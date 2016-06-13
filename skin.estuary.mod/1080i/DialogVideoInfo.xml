@@ -5,7 +5,7 @@
 	<onunload>ClearProperty(infobackground,home)</onunload>
 	<controls>
 		<control type="group">
-			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml) | Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml) | Window.IsVisible(script-ExtendedInfo Script-VideoList.xml)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(script-script.extendedinfo-VideoList.xml)">Conditional</animation>
 			<control type="image">
             			<include>OpenClose_Left</include>      
             			<visible>Skin.HasSetting(show_clearlogos)</visible>
@@ -46,7 +46,7 @@
 					<width>469</width>
 					<height>668</height>
 					<aspectratio>stretch</aspectratio>
-					<texture fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+					<texture fallback="DefaultVideoCover.png">$VAR[InfoDialogPosterVar]</texture>
 				</control>
 				<control type="group">
 					<visible>String.IsEqual(ListItem.DBType,episode)</visible>
@@ -57,7 +57,7 @@
 						<width>469</width>
 						<height>668</height>
 						<aspectratio>stretch</aspectratio>
-						<texture colordiffuse="AAFFFFFF" fallback="DefaultVideo.png">colors/black.png</texture>
+						<texture colordiffuse="AAFFFFFF" fallback="DefaultVideoCover.png">colors/black.png</texture>
 					</control>
 					<control type="image">
 						<left>20</left>
@@ -455,7 +455,7 @@
 					</include>
 					<include content="InfoDialogMetadata">
 						<param name="control_id" value="157" />
-						<param name="label" value="[COLOR button_focus]$LOCALIZE[36910] : [/COLOR]$INFO[ListItem.Set]" />
+						<param name="label" value="[COLOR button_focus]$LOCALIZE[20457] : [/COLOR]$INFO[ListItem.Set]" />
 						<param name="visible" value="!String.IsEmpty(ListItem.Set)" />
 					</include>
 					<include content="InfoDialogMetadata">
@@ -516,7 +516,7 @@
 								<top>0</top>
 								<width>264</width>
 								<height>317</height>
-								<texture>DefaultActor.png</texture>
+								<texture>DefaultActorSolid.png</texture>
 								<aspectratio aligny="center">scale</aspectratio>
 								<bordertexture border="20">overlays/shadow.png</bordertexture>
 								<bordersize>20</bordersize>
@@ -526,7 +526,7 @@
 								<left>20</left>
 								<width>224</width>
 								<height>277</height>
-								<texture fallback="DefaultActor.png">$INFO[ListItem.Thumb]</texture>
+								<texture fallback="DefaultActorSolid.png">$INFO[ListItem.Thumb]</texture>
 								<aspectratio aligny="center">scale</aspectratio>
 							</control>
 							<control type="image">
@@ -568,7 +568,7 @@
 								<top>0</top>
 								<width>264</width>
 								<height>317</height>
-								<texture>DefaultActor.png</texture>
+								<texture>DefaultActorSolid.png</texture>
 								<aspectratio aligny="center">scale</aspectratio>
 								<bordertexture border="20">overlays/shadow.png</bordertexture>
 								<bordersize>20</bordersize>

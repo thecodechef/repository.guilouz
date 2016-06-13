@@ -53,7 +53,7 @@
                             <top>10</top>
                             <bottom>10</bottom>
                             <aspectratio>stretch</aspectratio>
-                            <texture fallback="DefaultVideo.png">$VAR[ListPosterVar]</texture>
+                            <texture fallback="DefaultVideoCover.png">$VAR[ListPosterVar]</texture>
                         </control>        
                     </control>
                 </itemlayout>
@@ -81,7 +81,7 @@
                             <top>10</top>
                             <bottom>10</bottom>
                             <aspectratio>stretch</aspectratio>
-                            <texture fallback="DefaultVideo.png">$VAR[ListPosterVar]</texture>
+                            <texture fallback="DefaultVideoCover.png">$VAR[ListPosterVar]</texture>
                         </control>
                         <control type="image">
 							<left>10</left>
@@ -277,7 +277,7 @@
                             <top>10</top>
                             <height>256</height>
                             <aspectratio align="center" aligny="top">scale</aspectratio>
-                            <texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Art(thumb)]</texture>
+                            <texture background="true" fallback="DefaultVideoCover.png">$INFO[ListItem.Art(thumb)]</texture>
                             <visible>!Container.Content(tvshows)</visible>
                         </control>
                         <control type="image">
@@ -286,7 +286,7 @@
                             <top>10</top>
                             <height>256</height>
                             <aspectratio align="center" aligny="top">scale</aspectratio>
-                            <texture background="true" fallback="DefaultVideo.png">$VAR[TVShowWidgetImageVar]</texture>
+                            <texture background="true" fallback="DefaultVideoCover.png">$VAR[TVShowWidgetImageVar]</texture>
                             <visible>Container.Content(tvshows)</visible>
                         </control>
                         <control type="group">
@@ -390,7 +390,7 @@
                             <top>10</top>
                             <height>256</height>
                             <aspectratio align="center" aligny="top">scale</aspectratio>
-                            <texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Art(thumb)]</texture>
+                            <texture background="true" fallback="DefaultVideoCover.png">$INFO[ListItem.Art(thumb)]</texture>
                             <visible>!Container.Content(tvshows)</visible>
                         </control>
                         <control type="image">
@@ -399,7 +399,7 @@
                             <top>10</top>
                             <height>256</height>
                             <aspectratio align="center" aligny="top">scale</aspectratio>
-                            <texture background="true" fallback="DefaultVideo.png">$VAR[TVShowWidgetImageVar]</texture>
+                            <texture background="true" fallback="DefaultVideoCover.png">$VAR[TVShowWidgetImageVar]</texture>
                             <visible>Container.Content(tvshows)</visible>
                         </control>
                         <control type="group">

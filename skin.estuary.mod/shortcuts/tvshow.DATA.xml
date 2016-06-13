@@ -27,7 +27,7 @@
     <shortcut>
         <label>344</label>
         <label2>Common Shortcut</label2>
-        <icon>special://skin/extras/icons/actors.png</icon>
+        <icon>special://skin/extras/icons/actor.png</icon>
         <action>ActivateWindow(Videos,videodb://tvshows/actors/,return)</action>
     </shortcut>
     <shortcut>

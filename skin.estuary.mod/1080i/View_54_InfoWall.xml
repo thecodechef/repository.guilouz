@@ -116,7 +116,7 @@
 						<top>0</top>
 						<width>259</width>
 						<height>364</height>
-						<texture fallback="DefaultVideo.png" background="true">$VAR[ListPosterVar]</texture>
+						<texture fallback="DefaultVideoCover.png" background="true">$VAR[ListPosterVar]</texture>
 						<bordertexture border="20">overlays/shadow.png</bordertexture>
 						<bordersize>20</bordersize>
 					</control>
@@ -135,7 +135,7 @@
 							<top>0</top>
 							<width>259</width>
 							<height>364</height>
-							<texture fallback="DefaultVideo.png" background="true">$VAR[ListPosterVar]</texture>
+							<texture fallback="DefaultVideoCover.png" background="true">$VAR[ListPosterVar]</texture>
 							<bordertexture border="20">overlays/shadow.png</bordertexture>
 							<bordersize>20</bordersize>
 						</control>

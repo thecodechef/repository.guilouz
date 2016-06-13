@@ -3,11 +3,11 @@
     <shortcut>
         <label>10040</label>
         <label2>Common Shortcut</label2>
-        <icon>special://skin/extras/icons/addon.png</icon>
+        <icon>special://skin/extras/icons/addons.png</icon>
         <action>ActivateWindow(addonbrowser,root)</action>
     </shortcut>
     <shortcut>
-        <label>40161</label>
+        <label>40074</label>
         <label2>Common Shortcut</label2>
         <icon>special://skin/extras/icons/settings.png</icon>
         <action>ActivateWindow(systemsettings,addons)</action>

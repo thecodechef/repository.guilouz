@@ -591,7 +591,7 @@
 						<param name="sub_label" value=""/>
 					</include>
 					<include content="WidgetListSquare">
-						<param name="content_path" value="androidapp://sources/apps/"/>
+						<param name="content_path" value="$VAR[AndroidAppPathVar]"/>
 						<param name="widget_header" value="$LOCALIZE[20244]"/>
 						<param name="widget_target" value="programs"/>
 						<param name="sortby" value="lastused"/>
@@ -602,7 +602,6 @@
 						<param name="single_label" value="$INFO[ListItem.Label]"/>
 						<param name="main_label" value=""/>
 						<param name="sub_label" value=""/>
-						<param name="visible" value="System.Platform.Android"/>
 					</include>
 					<include content="WidgetListSquare">
 						<param name="content_path" value="addons://sources/image/"/>
@@ -671,7 +670,7 @@
 						<param name="list_id" value="11200"/>
 						<param name="onup_id" value="11300"/>
 						<param name="ondown_id" value="20001"/>
-						<param name="icon" value="icons/defaulticons/DefaultPlaylist.png"/>
+						<param name="icon" value="DefaultPlaylist.png"/>
 					</include>
 					<include content="ImageWidget">
  						<param name="image_path" value="special://skin/extras/home-images/livetv.jpg"/>
@@ -898,7 +897,6 @@
 			</control>
 			<control type="group" id="4000">
 				<visible>String.IsEqual(Container(9000).ListItem.Property(widget),PictureWidget)</visible>
-				<scrolltime tween="cubic" easing="out">500</scrolltime>
 				<include>Visible_Right_Delayed</include>
 				<control type="grouplist" id="4001">
 					<orientation>vertical</orientation>
@@ -1299,9 +1297,9 @@
 		<control type="group">
 			<include>OpenClose_Left</include>
 			<control type="radiobutton" id="900">
-				<left>37</left>
+				<left>33</left>
 				<top>94</top>
-				<width>420</width>
+				<width>424</width>
 				<height>110</height>
 				<onup>14200</onup>
 				<ondown>SetFocus(9000,0)</ondown>
@@ -1435,16 +1433,16 @@
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 					</focusedlayout>
-                                        <include>mainmenu-position-and-appearance</include>
+                            <include>mainmenu-position-and-appearance</include>
 					<content>
-                                                <include>skinshortcuts-mainmenu</include>
+                            <include>skinshortcuts-mainmenu</include>
 					</content>
 				</control>
 			</control>
 			<control type="grouplist" id="700">
 				<orientation>horizontal</orientation>
-				<itemgap>-17</itemgap>
-				<left>36</left>
+				<itemgap>-16</itemgap>
+				<left>33</left>
 				<top>878</top>
 				<onup>SetFocus(9000,99)</onup>
 				<onup>9000</onup>

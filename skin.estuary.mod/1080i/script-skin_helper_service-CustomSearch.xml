@@ -612,7 +612,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>
@@ -633,7 +633,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>
@@ -675,7 +675,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>
@@ -696,7 +696,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" diffuse="poster.png" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" diffuse="poster.png" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>
@@ -738,7 +738,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>
@@ -757,7 +757,7 @@
                      <control type="image">
                         <width>150</width>
                         <height>221</height>
-                        <texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+                        <texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
                         <aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
                         <bordersize>0</bordersize>
                      </control>

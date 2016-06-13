@@ -90,7 +90,7 @@
 	    <control type="image">
 		<width>297</width>
 		<height>390</height>
-		<texture border="1" background="true" fallback="DefaultVideo.png">$VAR[PosterVar]</texture>
+		<texture border="1" background="true" fallback="DefaultVideoCover.png">$VAR[PosterVar]</texture>
 		<aspectratio scalediffuse="true" aligny="bottom" align="center">stretch</aspectratio>
 		<bordersize>0</bordersize>
 	    </control>

@@ -60,7 +60,7 @@
 				<bordertexture colordiffuse="FF494949">dialogs/white.png</bordertexture>
 				<bordersize>5</bordersize>
 				<aspectratio aligny="center">keep</aspectratio>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
+				<visible>!VideoPlayer.Content(LiveTV) + !String.IsEmpty(Player.Art(poster)) + !String.IsEmpty(Player.Art(tvshow.poster))</visible>
 			</control>
 			<control type="image">
 				<description>TV Cover</description>
@@ -71,6 +71,7 @@
 				<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingPosterVar]</texture>
 				<aspectratio aligny="center">keep</aspectratio>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
+				<visible>!String.IsEmpty(Player.Art(thumb))</visible>
 			</control>
 			<control type="textbox">
 				<left>52</left>
@@ -103,7 +104,7 @@
                 		<aspectratio>keep</aspectratio>
                 		<texture>$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]</texture>
                 		<visible>!String.IsEmpty(VideoPlayer.VideoCodec)</visible>
-            		</control> 
+            </control> 
 			<control type="image">
                 		<width>108</width>
                 		<height>50</height>
@@ -248,8 +249,6 @@
 					<height>30</height>
 					<onup>8010</onup>
 					<ondown>650</ondown>
-					<controloffsetx>75</controloffsetx>
-					<controloffsety>0</controloffsety>
 					<texturesliderbar colordiffuse="00FFFFFF">osd/progress/nub_bar.png</texturesliderbar>
 					<textureslidernib>osd/progress/nub_bar.png</textureslidernib>
 					<textureslidernibfocus colordiffuse="button_focus">osd/progress/nub_bar.png</textureslidernibfocus>

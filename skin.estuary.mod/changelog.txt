@@ -1,4 +1,8 @@
 [B]1.2.5[/B]
+• Add changes from original Estuary 0.8.0
+• Improve icons resolution
+• Changes in dialog select
+• Fix studios icons
 • Fix missing string
 
 [B]1.2.4[/B]

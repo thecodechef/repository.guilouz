@@ -73,10 +73,10 @@
 							</control>
 							<control type="image">
 								<left>0</left>
-								<top>-10</top>
+								<top>10</top>
 								<width>382</width>
 								<aspectratio>keep</aspectratio>
-								<height>120</height>
+								<height>60</height>
 								<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							</control>
 						</control>
@@ -102,10 +102,10 @@
 						</control>
 						<control type="image">
 							<left>0</left>
-							<top>-10</top>
+							<top>10</top>
 							<width>382</width>
 							<aspectratio>keep</aspectratio>
-							<height>120</height>
+							<height>60</height>
 							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 						</control>
 					</itemlayout>
@@ -113,28 +113,28 @@
 						<item id="1">
 							<label>$LOCALIZE[1037] $INFO[Window(Home).Property(SkinHelper.TotalVideoAddons),(,)]</label>
 							<onclick>ActivateWindow(videos,addons://sources/video/,return)</onclick>
-							<thumb>icons/settings/video.png</thumb>
+							<thumb>icons/settings/AddonVideo.png</thumb>
 							<property name="id">video</property>
 							<property name="path">addons://sources/video/</property>
 						</item>
 						<item id="2">
 							<label>$LOCALIZE[1038] $INFO[Window(Home).Property(SkinHelper.TotalAudioAddons),(,)]</label>
 							<onclick>ActivateWindow(music,addons://sources/audio/,return)</onclick>
-							<thumb>icons/settings/music.png</thumb>
+							<thumb>icons/settings/AddonMusic.png</thumb>
 							<property name="id">music</property>
 							<property name="path">addons://sources/audio/</property>
 						</item>
 						<item id="3">
 							<label>$LOCALIZE[1043] $INFO[Window(Home).Property(SkinHelper.TotalProgramAddons),(,)]</label>
 							<onclick>ActivateWindow(programs,addons://sources/executable/,return)</onclick>
-							<thumb>icons/settings/appearance.png</thumb>
+							<thumb>icons/settings/AddonProgram.png</thumb>
 							<property name="id">addons</property>
 							<property name="path">addons://sources/executable/</property>
 						</item>
 						<item id="4">
 							<label>$LOCALIZE[1043] $INFO[Window(Home).Property(SkinHelper.TotalProgramAddon),(,)]</label>
 							<onclick>ActivateWindow(programs,androidapps://,return)</onclick>
-							<thumb>icons/settings/android.png</thumb>
+							<thumb>icons/settings/AddonAndroid.png</thumb>
 							<property name="id">android</property>
 							<property name="path">androidapps://</property>
 							<visible>System.Platform.Android</visible>
@@ -142,16 +142,10 @@
 						<item id="5">
 							<label>$LOCALIZE[1039] $INFO[Window(Home).Property(SkinHelper.TotalPicturesAddons),(,)]</label>
 							<onclick>ActivateWindow(pictures,addons://sources/image/,return)</onclick>
-							<thumb>icons/settings/pictures.png</thumb>
+							<thumb>icons/settings/AddonPicture.png</thumb>
 							<property name="id">pictures</property>
 							<property name="path">addons://sources/executable/</property>
 						</item>
-						<!-- 					<item id="6">
-						     <label>Available Updates</label>
-						     <onclick>ActivateWindow(addonbrowser,addons://outdated/,return)</onclick>
-						     <thumb>icons/settings/update-available.png</thumb>
-						     <property name="id">outdated</property>
-						     </item> -->
 					</content>
 				</control>
 			</control>

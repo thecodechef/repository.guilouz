@@ -22,7 +22,7 @@
 				<scrolltime tween="cubic" easing="out">500</scrolltime>
 				<visible>Container.Content() | Container.Content(tags) | Container.Content(years) | Container.Content(roles) | Container.Content(genres) | Container.Content(countries) | Container.Content(studios) | Container.Content(playlists) | Container.Content(unknown)</visible>
 				<viewtype label="31099">icon</viewtype>
-				<itemlayout height="248" width="440" condition="Container.Content() | Container.Content(unknown) | Container.Content(tags) | Container.Content(files) | Container.Content(playlists) | [Container.Content(studios) + System.HasAddon(resource.images.studios.estuarymod)]">
+				<itemlayout height="248" width="440" condition="Container.Content() | Container.Content(unknown) | Container.Content(tags) | Container.Content(files) | Container.Content(playlists) | Container.Content(studios)">
 					<control type="group">
 						<top>2</top>
 						<control type="image">
@@ -32,10 +32,10 @@
 						</control>
 						<control type="image">
 							<left>120</left>
-							<top>20</top>
+							<top>5</top>
 							<width>160</width>
-							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultStudios.png">$VAR[IconWallThumbVar]</texture>
+							<height>160</height>
+							<texture fallback="DefaultStudios.png">$VAR[IconWallThumbVar]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 						</control>
@@ -67,7 +67,7 @@
 						</control>
 					</control>
 				</itemlayout>
-				<focusedlayout height="248" width="440" condition="Container.Content() | Container.Content(unknown) | Container.Content(tags) | Container.Content(files) | Container.Content(playlists) | [Container.Content(studios) + System.HasAddon(resource.images.studios.estuarymod)]">
+				<focusedlayout height="248" width="440" condition="Container.Content() | Container.Content(unknown) | Container.Content(tags) | Container.Content(files) | Container.Content(playlists) | Container.Content(studios)">
 					<control type="group">
 						<depth>DepthContentPopout</depth>
 						<animation type="Focus" reversible="false" condition="!Skin.HasSetting(no_animations)">
@@ -92,10 +92,10 @@
 						</control>
 						<control type="image">
 							<left>120</left>
-							<top>20</top>
+							<top>5</top>
 							<width>160</width>
-							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultStudios.png">$VAR[IconWallThumbVar]</texture>
+							<height>160</height>
+							<texture fallback="DefaultStudios.png">$VAR[IconWallThumbVar]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 						</control>
@@ -141,7 +141,7 @@
 							<top>20</top>
 							<width>160</width>
 							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultGenre.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
+							<texture fallback="DefaultGenre.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 							<visible>String.StartsWith(Container.FolderPath,videodb://)</visible>
@@ -151,7 +151,7 @@
 							<top>20</top>
 							<width>160</width>
 							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultMusicGenres.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
+							<texture fallback="DefaultMusicGenres.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 							<visible>String.StartsWith(Container.FolderPath,musicdb://)</visible>
@@ -210,7 +210,7 @@
 							<top>20</top>
 							<width>160</width>
 							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultGenre.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
+							<texture fallback="DefaultGenre.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 							<visible>String.StartsWith(Container.FolderPath,videodb://)</visible>
@@ -220,7 +220,7 @@
 							<top>20</top>
 							<width>160</width>
 							<height>130</height>
-							<texture fallback="icons/defaulticons/DefaultMusicGenres.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
+							<texture fallback="DefaultMusicGenres.png">icons/genres/$INFO[ListItem.Label,,.png]</texture>
 							<aspectratio>keep</aspectratio>
 							<align>center</align>
 							<visible>String.StartsWith(Container.FolderPath,musicdb://)</visible>

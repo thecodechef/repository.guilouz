@@ -26,7 +26,7 @@
 					<width>992</width>
 					<height>558</height>
 					<fadetime>300</fadetime>
-					<texture border="2" fallback="DefaultVideo.png" background="true">$VAR[FanartImageVar]</texture>
+					<texture border="2" fallback="DefaultVideoCover.png" background="true">$VAR[FanartImageVar]</texture>
 					<aspectratio align="center" aligny="bottom">keep</aspectratio>
 				</control>
 				<control type="group">

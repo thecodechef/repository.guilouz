@@ -9,7 +9,7 @@
     <shortcut>
         <label>133</label>
         <label2>Common Shortcut</label2>
-        <icon>special://skin/extras/icons/actor.png</icon>
+        <icon>special://skin/extras/icons/artist.png</icon>
         <action>ActivateWindow(Music,musicdb://artists/,return)</action>
     </shortcut>
     <shortcut>
