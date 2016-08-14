@@ -1,11 +1,11 @@
-Expected behavior
+## Expected behavior
 
 Write here.
 
-Actual behavior
+## Actual behavior
 
 Write here.
 
-Steps to reproduce behavior
+## Steps to reproduce behavior
 
 Write here.
